@@ -1,6 +1,7 @@
 from collections import namedtuple
 import csv
 
+Coordenadas = namedtuple("Coordenadas",[("latitud"),("longitud")])
 CentroSanitario = namedtuple('CentroSanitario', 'nombre, localidad, coordenadas, estado, num_camas, acceso_minusvalidos, tiene_uci')
 
 def parsea_booleano(cadena):
@@ -15,8 +16,8 @@ def parsea_booleano(cadena):
 
 def leer_centros(fichero):
     res = []
-    with open(fichero,encoding="utf-8"):
-        lector = csv.reader(fichero,delimiter=";")
+    with open(fichero,encoding="utf-8") as f:
+        lector = csv.reader(f,delimiter=";")
         next(lector)
         for nombre, localidad, latitud, longitud, estado, num_camas, acceso_minusvalido, tiene_uci in lector:
             coords = Coordenadas(float(latitud),float(longitud))
@@ -24,4 +25,3 @@ def leer_centros(fichero):
             res.append(centro)
     return res
 
-leer_centros("C:/Users/Peke/Documents/GitHub/LAB-Centros-sanitarios/data/centrosSanitarios.csv")
