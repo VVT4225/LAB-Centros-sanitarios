@@ -2,6 +2,7 @@ from collections import namedtuple
 import csv
 
 from coordenadas import *
+from mapas import *
 
 Coordenadas = namedtuple("Coordenadas",[("latitud"),("longitud")])
 CentroSanitario = namedtuple('CentroSanitario', 'nombre, localidad, coordenadas, estado, num_camas, acceso_minusvalidos, tiene_uci')
@@ -44,3 +45,12 @@ def obtener_centros_con_uci_cercanos_a(centros,coords,umbral):
         if calcular_distancia(i.coordenadas,coords) <= umbral:
             res.append((i.nombre,i.localidad,i.coordenadas))
     return res
+
+def generar_mapa(centros_data,ruta_fichero):
+    coords = []
+    for i in centros_data:
+        coords.append(i[2])
+    mapa = crea_mapa(calcular_media_coordenadas(coords),zoom=9)
+    for i in centros_data:
+        agrega_marcador(mapa, i[2], i[0], "red")
+    guarda_mapa(mapa,ruta_fichero)

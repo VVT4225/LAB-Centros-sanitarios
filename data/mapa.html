@@ -1,0 +1,2313 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b483937491dbe6219b50f9e117427a24 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b483937491dbe6219b50f9e117427a24" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b483937491dbe6219b50f9e117427a24 = L.map(
+                "map_b483937491dbe6219b50f9e117427a24",
+                {
+                    center: [36.50131982428922, -5.691117190076225],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5240462caf7fc3ee6ef260ca503a3a03 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_5240462caf7fc3ee6ef260ca503a3a03.addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var marker_424d136074084d094a6d6b0f123d7955 = L.marker(
+                [36.135051666002795, -5.843455923196172],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_f2efeb9b2f18606ef63fdee5a93e1001 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_424d136074084d094a6d6b0f123d7955.setIcon(icon_f2efeb9b2f18606ef63fdee5a93e1001);
+        
+    
+        var popup_b99969a6b8278f2ef52351a0df6d1164 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_daf9b617b7a8143cd4a7696ba12e1d7e = $(`<div id="html_daf9b617b7a8143cd4a7696ba12e1d7e" style="width: 100.0%; height: 100.0%;">CONSULTORIO ZAHARA DE LOS ATUNES</div>`)[0];
+                popup_b99969a6b8278f2ef52351a0df6d1164.setContent(html_daf9b617b7a8143cd4a7696ba12e1d7e);
+            
+        
+
+        marker_424d136074084d094a6d6b0f123d7955.bindPopup(popup_b99969a6b8278f2ef52351a0df6d1164)
+        ;
+
+        
+    
+    
+            var marker_54a89ecb42198b31f99f44513d6d9e6a = L.marker(
+                [36.189308321456515, -5.925475089376914],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_b891260d2603e0c7150c34a97dd6d698 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_54a89ecb42198b31f99f44513d6d9e6a.setIcon(icon_b891260d2603e0c7150c34a97dd6d698);
+        
+    
+        var popup_7e808dc4b825525eabda9dc6d6fd151d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd84c817e27b123050268259f8a96ed2 = $(`<div id="html_dd84c817e27b123050268259f8a96ed2" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD BARBATE</div>`)[0];
+                popup_7e808dc4b825525eabda9dc6d6fd151d.setContent(html_dd84c817e27b123050268259f8a96ed2);
+            
+        
+
+        marker_54a89ecb42198b31f99f44513d6d9e6a.bindPopup(popup_7e808dc4b825525eabda9dc6d6fd151d)
+        ;
+
+        
+    
+    
+            var marker_4877108b9f6a56f3261624a64f095d0d = L.marker(
+                [36.18825555644049, -5.923467895802184],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_17de7172817464296b51c1bf7ed94d43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4877108b9f6a56f3261624a64f095d0d.setIcon(icon_17de7172817464296b51c1bf7ed94d43);
+        
+    
+        var popup_34ae0d784b4c7d4b8a1cffe8b99df597 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_181c2ab6a500f2393ec25cf4b843e3c0 = $(`<div id="html_181c2ab6a500f2393ec25cf4b843e3c0" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD (CASA DEL MAR) BARBATE</div>`)[0];
+                popup_34ae0d784b4c7d4b8a1cffe8b99df597.setContent(html_181c2ab6a500f2393ec25cf4b843e3c0);
+            
+        
+
+        marker_4877108b9f6a56f3261624a64f095d0d.bindPopup(popup_34ae0d784b4c7d4b8a1cffe8b99df597)
+        ;
+
+        
+    
+    
+            var marker_e6fd5fad6055d478f11b43c53466ede9 = L.marker(
+                [36.72460010332263, -5.931456684613025],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_31bdc5d994b69d72f72444cef3ce9b5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e6fd5fad6055d478f11b43c53466ede9.setIcon(icon_31bdc5d994b69d72f72444cef3ce9b5e);
+        
+    
+        var popup_e338275e352c0122384a1e96a9369233 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d46577e636fca6382fc5cf5f5c599cc4 = $(`<div id="html_d46577e636fca6382fc5cf5f5c599cc4" style="width: 100.0%; height: 100.0%;">CONSULTORIO JEDULA</div>`)[0];
+                popup_e338275e352c0122384a1e96a9369233.setContent(html_d46577e636fca6382fc5cf5f5c599cc4);
+            
+        
+
+        marker_e6fd5fad6055d478f11b43c53466ede9.bindPopup(popup_e338275e352c0122384a1e96a9369233)
+        ;
+
+        
+    
+    
+            var marker_dbe18053ab381a43d014be79aaa357aa = L.marker(
+                [36.75005534052628, -5.809773177487557],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_c029cfda7fa3b5746eb13e225755401a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dbe18053ab381a43d014be79aaa357aa.setIcon(icon_c029cfda7fa3b5746eb13e225755401a);
+        
+    
+        var popup_73747a082fd5067ac28f36c362a55537 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e12df34f80d9298831731a926f80c1a5 = $(`<div id="html_e12df34f80d9298831731a926f80c1a5" style="width: 100.0%; height: 100.0%;">CONSULTORIO EL POSITO</div>`)[0];
+                popup_73747a082fd5067ac28f36c362a55537.setContent(html_e12df34f80d9298831731a926f80c1a5);
+            
+        
+
+        marker_dbe18053ab381a43d014be79aaa357aa.bindPopup(popup_73747a082fd5067ac28f36c362a55537)
+        ;
+
+        
+    
+    
+            var marker_793d16b1b1580a6bc573ee1f86e1789f = L.marker(
+                [36.74272890984898, -5.797115491891108],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_135c5178bf78c737090950bb6a48a0cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_793d16b1b1580a6bc573ee1f86e1789f.setIcon(icon_135c5178bf78c737090950bb6a48a0cb);
+        
+    
+        var popup_192cea0d145160561235c7e1c167af5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42cf254eca3e0634497b27ceadc65a71 = $(`<div id="html_42cf254eca3e0634497b27ceadc65a71" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD ARCOS DE LA FRONTERA</div>`)[0];
+                popup_192cea0d145160561235c7e1c167af5b.setContent(html_42cf254eca3e0634497b27ceadc65a71);
+            
+        
+
+        marker_793d16b1b1580a6bc573ee1f86e1789f.bindPopup(popup_192cea0d145160561235c7e1c167af5b)
+        ;
+
+        
+    
+    
+            var marker_bebc8266daf4c0900c484a2c9d5df60b = L.marker(
+                [36.93028619636662, -5.411900126241025],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_6cf560f23664c7abcb9c3a0a64263028 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bebc8266daf4c0900c484a2c9d5df60b.setIcon(icon_6cf560f23664c7abcb9c3a0a64263028);
+        
+    
+        var popup_435b148e604e4c230bd6a5551fdbc8a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc9325faf2ff1f1e41238d7ad56a1b14 = $(`<div id="html_cc9325faf2ff1f1e41238d7ad56a1b14" style="width: 100.0%; height: 100.0%;">CONSULTORIO AUXILIAR LA MUELA</div>`)[0];
+                popup_435b148e604e4c230bd6a5551fdbc8a7.setContent(html_cc9325faf2ff1f1e41238d7ad56a1b14);
+            
+        
+
+        marker_bebc8266daf4c0900c484a2c9d5df60b.bindPopup(popup_435b148e604e4c230bd6a5551fdbc8a7)
+        ;
+
+        
+    
+    
+            var marker_6df04c411f4a76e474757662137fbffe = L.marker(
+                [36.87946545201232, -5.402516807153386],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_0e40ab82504f992c8f99c8def1b04d94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6df04c411f4a76e474757662137fbffe.setIcon(icon_0e40ab82504f992c8f99c8def1b04d94);
+        
+    
+        var popup_a76363019610e54823762b8ff30a95d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_339c5555fb44ae6968bf3ba72d8f2860 = $(`<div id="html_339c5555fb44ae6968bf3ba72d8f2860" style="width: 100.0%; height: 100.0%;">CONSULTORIO ALGODONALES</div>`)[0];
+                popup_a76363019610e54823762b8ff30a95d1.setContent(html_339c5555fb44ae6968bf3ba72d8f2860);
+            
+        
+
+        marker_6df04c411f4a76e474757662137fbffe.bindPopup(popup_a76363019610e54823762b8ff30a95d1)
+        ;
+
+        
+    
+    
+            var marker_402f7c201e89e0c2f58704894103955e = L.marker(
+                [36.46076654484339, -5.722895815413334],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_3c8d181e0015fdc31b1e1d5f56ac6ed0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_402f7c201e89e0c2f58704894103955e.setIcon(icon_3c8d181e0015fdc31b1e1d5f56ac6ed0);
+        
+    
+        var popup_b37796a3f1939b561daba437ed02d42e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24636acc45ab6e61c0ed4dd1802def91 = $(`<div id="html_24636acc45ab6e61c0ed4dd1802def91" style="width: 100.0%; height: 100.0%;">CONSULTORIO ALCALA DE LOS GAZULES</div>`)[0];
+                popup_b37796a3f1939b561daba437ed02d42e.setContent(html_24636acc45ab6e61c0ed4dd1802def91);
+            
+        
+
+        marker_402f7c201e89e0c2f58704894103955e.bindPopup(popup_b37796a3f1939b561daba437ed02d42e)
+        ;
+
+        
+    
+    
+            var marker_3b8703c60a3296dff3f490ec97b6d320 = L.marker(
+                [36.657635572267445, -5.656869439190807],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_309c8caae688d7b74875159b966b1ab8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3b8703c60a3296dff3f490ec97b6d320.setIcon(icon_309c8caae688d7b74875159b966b1ab8);
+        
+    
+        var popup_bec30213b7ca69169deeb1add356d20b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e232e74e4bef71dc0ed7601b48ad963 = $(`<div id="html_2e232e74e4bef71dc0ed7601b48ad963" style="width: 100.0%; height: 100.0%;">CONSULTORIO ALGAR</div>`)[0];
+                popup_bec30213b7ca69169deeb1add356d20b.setContent(html_2e232e74e4bef71dc0ed7601b48ad963);
+            
+        
+
+        marker_3b8703c60a3296dff3f490ec97b6d320.bindPopup(popup_bec30213b7ca69169deeb1add356d20b)
+        ;
+
+        
+    
+    
+            var marker_888a0a8cbe6b242f0910060b7952e33f = L.marker(
+                [36.903376479892216, -5.1720080896354865],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_d902d346fdf53f9cccd5257cd8024f84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_888a0a8cbe6b242f0910060b7952e33f.setIcon(icon_d902d346fdf53f9cccd5257cd8024f84);
+        
+    
+        var popup_964e15c00c0e3c4eda679c2674a518eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aec71618757cf1f34ed57bffe1fe7b1f = $(`<div id="html_aec71618757cf1f34ed57bffe1fe7b1f" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD ALACALA DEL VALLE</div>`)[0];
+                popup_964e15c00c0e3c4eda679c2674a518eb.setContent(html_aec71618757cf1f34ed57bffe1fe7b1f);
+            
+        
+
+        marker_888a0a8cbe6b242f0910060b7952e33f.bindPopup(popup_964e15c00c0e3c4eda679c2674a518eb)
+        ;
+
+        
+    
+    
+            var marker_02bb49a0171bdfc744c12a171ef09280 = L.marker(
+                [36.01774586933002, -5.601186429531831],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_3f3570f0f57b0b20507e7d026f0f1c09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_02bb49a0171bdfc744c12a171ef09280.setIcon(icon_3f3570f0f57b0b20507e7d026f0f1c09);
+        
+    
+        var popup_5dedefd56b37ea3c7a7cbf55618cf743 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d453b43e134f6a6932aa45c5acaaca78 = $(`<div id="html_d453b43e134f6a6932aa45c5acaaca78" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD CASA DEL MAR</div>`)[0];
+                popup_5dedefd56b37ea3c7a7cbf55618cf743.setContent(html_d453b43e134f6a6932aa45c5acaaca78);
+            
+        
+
+        marker_02bb49a0171bdfc744c12a171ef09280.bindPopup(popup_5dedefd56b37ea3c7a7cbf55618cf743)
+        ;
+
+        
+    
+    
+            var marker_0b47569667c1ac737e97b205c1fa7f8d = L.marker(
+                [36.18391017226953, -5.414960858977093],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_b97681f080ea9a0a19c103e02ee5d5d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0b47569667c1ac737e97b205c1fa7f8d.setIcon(icon_b97681f080ea9a0a19c103e02ee5d5d0);
+        
+    
+        var popup_4250c22bd82f8c9c13b383e35cbe6d40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d76ff2290519564715d6c926531e792 = $(`<div id="html_9d76ff2290519564715d6c926531e792" style="width: 100.0%; height: 100.0%;">CONSULTORIO AUXILIAR GUADARRANQUE</div>`)[0];
+                popup_4250c22bd82f8c9c13b383e35cbe6d40.setContent(html_9d76ff2290519564715d6c926531e792);
+            
+        
+
+        marker_0b47569667c1ac737e97b205c1fa7f8d.bindPopup(popup_4250c22bd82f8c9c13b383e35cbe6d40)
+        ;
+
+        
+    
+    
+            var marker_662d5312d539db2a666a71955d081694 = L.marker(
+                [36.17809045129006, -5.378933716676538],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_0260af6da0ebb26290988424605b108f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_662d5312d539db2a666a71955d081694.setIcon(icon_0260af6da0ebb26290988424605b108f);
+        
+    
+        var popup_d95bb6fadc21384774b8a7e03a7c829d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2051fa8fd3f5732b30e2c9eb175c5f57 = $(`<div id="html_2051fa8fd3f5732b30e2c9eb175c5f57" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD CAMPAMENTO</div>`)[0];
+                popup_d95bb6fadc21384774b8a7e03a7c829d.setContent(html_2051fa8fd3f5732b30e2c9eb175c5f57);
+            
+        
+
+        marker_662d5312d539db2a666a71955d081694.bindPopup(popup_d95bb6fadc21384774b8a7e03a7c829d)
+        ;
+
+        
+    
+    
+            var marker_e597eb3064ce315596a590c4838b1b0e = L.marker(
+                [36.624113279769716, -6.363444575002416],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_ec13aeb7ea1444a364d78293c0f60ddc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e597eb3064ce315596a590c4838b1b0e.setIcon(icon_ec13aeb7ea1444a364d78293c0f60ddc);
+        
+    
+        var popup_7e3a1e868db700b49e1e3f4386312059 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7aef1050a35e5674d85ef075c39e9992 = $(`<div id="html_7aef1050a35e5674d85ef075c39e9992" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD ROTA</div>`)[0];
+                popup_7e3a1e868db700b49e1e3f4386312059.setContent(html_7aef1050a35e5674d85ef075c39e9992);
+            
+        
+
+        marker_e597eb3064ce315596a590c4838b1b0e.bindPopup(popup_7e3a1e868db700b49e1e3f4386312059)
+        ;
+
+        
+    
+    
+            var marker_f6f3bc3efcd253d496b46fef69f3bc60 = L.marker(
+                [36.52501351950163, -6.175483330848608],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_4b2c252a4d48dc8ab5dda1b2e16bd92e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f6f3bc3efcd253d496b46fef69f3bc60.setIcon(icon_4b2c252a4d48dc8ab5dda1b2e16bd92e);
+        
+    
+        var popup_90fe88e470d0e27b74a0489779ddb320 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba218245d06db0470ca1ef561b0d2da5 = $(`<div id="html_ba218245d06db0470ca1ef561b0d2da5" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD CASINES</div>`)[0];
+                popup_90fe88e470d0e27b74a0489779ddb320.setContent(html_ba218245d06db0470ca1ef561b0d2da5);
+            
+        
+
+        marker_f6f3bc3efcd253d496b46fef69f3bc60.bindPopup(popup_90fe88e470d0e27b74a0489779ddb320)
+        ;
+
+        
+    
+    
+            var marker_a48a8efa83369c65388cdd94f8e65590 = L.marker(
+                [36.522913160353085, -6.2241591551279924],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_c7fba11b8d0c5edfd02beec0c14709b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a48a8efa83369c65388cdd94f8e65590.setIcon(icon_c7fba11b8d0c5edfd02beec0c14709b6);
+        
+    
+        var popup_6e948d1e26e35ce6745fd7380b05006e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_655007e3fea4ccd0a1aceb7b7803bbd6 = $(`<div id="html_655007e3fea4ccd0a1aceb7b7803bbd6" style="width: 100.0%; height: 100.0%;">CONSULTORIO RIO SAN PEDRO</div>`)[0];
+                popup_6e948d1e26e35ce6745fd7380b05006e.setContent(html_655007e3fea4ccd0a1aceb7b7803bbd6);
+            
+        
+
+        marker_a48a8efa83369c65388cdd94f8e65590.bindPopup(popup_6e948d1e26e35ce6745fd7380b05006e)
+        ;
+
+        
+    
+    
+            var marker_62a2d8a9f3c645dd43ef2eaacf45886b = L.marker(
+                [36.52016726032299, -6.151330284937666],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_f88ef8bbc9202e46d501dbd2fc28541a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_62a2d8a9f3c645dd43ef2eaacf45886b.setIcon(icon_f88ef8bbc9202e46d501dbd2fc28541a);
+        
+    
+        var popup_fb14a56b535de694404c1252a6656238 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ede38cc93ad589f8c65d8a954a5c8f0c = $(`<div id="html_ede38cc93ad589f8c65d8a954a5c8f0c" style="width: 100.0%; height: 100.0%;">HOSPITAL UNIVERSITARIO</div>`)[0];
+                popup_fb14a56b535de694404c1252a6656238.setContent(html_ede38cc93ad589f8c65d8a954a5c8f0c);
+            
+        
+
+        marker_62a2d8a9f3c645dd43ef2eaacf45886b.bindPopup(popup_fb14a56b535de694404c1252a6656238)
+        ;
+
+        
+    
+    
+            var marker_bb6a972ee1fe10984d5dd76eff7ff606 = L.marker(
+                [36.79044414426221, -5.554934952989551],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_6c368cb4a4836e7a74e3d6ed3230f231 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bb6a972ee1fe10984d5dd76eff7ff606.setIcon(icon_6c368cb4a4836e7a74e3d6ed3230f231);
+        
+    
+        var popup_fbad8e1ea460730658600ee763fa8ed0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2d5cabef093365c80b3a380fd12ee7c = $(`<div id="html_d2d5cabef093365c80b3a380fd12ee7c" style="width: 100.0%; height: 100.0%;">CONSULTORIO PRADO DEL REY</div>`)[0];
+                popup_fbad8e1ea460730658600ee763fa8ed0.setContent(html_d2d5cabef093365c80b3a380fd12ee7c);
+            
+        
+
+        marker_bb6a972ee1fe10984d5dd76eff7ff606.bindPopup(popup_fbad8e1ea460730658600ee763fa8ed0)
+        ;
+
+        
+    
+    
+            var marker_d7d9da71bf682f9efe6adad1a64354ca = L.marker(
+                [36.93412655717929, -5.255930738262001],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_c455a3bf2ba76f67ae9c9e60ea004802 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d7d9da71bf682f9efe6adad1a64354ca.setIcon(icon_c455a3bf2ba76f67ae9c9e60ea004802);
+        
+    
+        var popup_76a1102a2603b2680177090631a14820 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_265acbcfe5aa3e9e9ab6448061c9f434 = $(`<div id="html_265acbcfe5aa3e9e9ab6448061c9f434" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD OLVERA</div>`)[0];
+                popup_76a1102a2603b2680177090631a14820.setContent(html_265acbcfe5aa3e9e9ab6448061c9f434);
+            
+        
+
+        marker_d7d9da71bf682f9efe6adad1a64354ca.bindPopup(popup_76a1102a2603b2680177090631a14820)
+        ;
+
+        
+    
+    
+            var marker_9adc5aa52f7720365c45cf04b1458325 = L.marker(
+                [36.359049107881354, -5.8691579972325645],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_0cb90538dfb9923fbd2935e38c76e166 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9adc5aa52f7720365c45cf04b1458325.setIcon(icon_0cb90538dfb9923fbd2935e38c76e166);
+        
+    
+        var popup_24be76f59596c9aacedadf8c7db90f3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d37ab52a59afdad4ebfb383c2bdfbf08 = $(`<div id="html_d37ab52a59afdad4ebfb383c2bdfbf08" style="width: 100.0%; height: 100.0%;">CONSULTORIO S.J. MALC.-LOS BADALEJOS</div>`)[0];
+                popup_24be76f59596c9aacedadf8c7db90f3d.setContent(html_d37ab52a59afdad4ebfb383c2bdfbf08);
+            
+        
+
+        marker_9adc5aa52f7720365c45cf04b1458325.bindPopup(popup_24be76f59596c9aacedadf8c7db90f3d)
+        ;
+
+        
+    
+    
+            var marker_a6e06332e56c38b4a10d18667e4acf3f = L.marker(
+                [36.467298283611306, -5.412570128530911],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_39aabf15be2319004b515e7491b09a50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a6e06332e56c38b4a10d18667e4acf3f.setIcon(icon_39aabf15be2319004b515e7491b09a50);
+        
+    
+        var popup_7e22b3ca22622d5e8491d64ef92fad27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_926961c38ef7afbeee74bc925bd31f93 = $(`<div id="html_926961c38ef7afbeee74bc925bd31f93" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD SAN PABLO DE BUCEITE</div>`)[0];
+                popup_7e22b3ca22622d5e8491d64ef92fad27.setContent(html_926961c38ef7afbeee74bc925bd31f93);
+            
+        
+
+        marker_a6e06332e56c38b4a10d18667e4acf3f.bindPopup(popup_7e22b3ca22622d5e8491d64ef92fad27)
+        ;
+
+        
+    
+    
+            var marker_7f940896f72e9b1078fc674eef3c5d28 = L.marker(
+                [36.340456070136376, -5.323883294783531],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_e8ca54288f6ea40a4d0f132b402bd9ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7f940896f72e9b1078fc674eef3c5d28.setIcon(icon_e8ca54288f6ea40a4d0f132b402bd9ae);
+        
+    
+        var popup_512f6e634436d2ae56ce6af497293b07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_913a36d0ba4f378b17c7d8cffef3c37a = $(`<div id="html_913a36d0ba4f378b17c7d8cffef3c37a" style="width: 100.0%; height: 100.0%;">MÓDULO DE SALUD SAN MARTIN DEL TES.</div>`)[0];
+                popup_512f6e634436d2ae56ce6af497293b07.setContent(html_913a36d0ba4f378b17c7d8cffef3c37a);
+            
+        
+
+        marker_7f940896f72e9b1078fc674eef3c5d28.bindPopup(popup_512f6e634436d2ae56ce6af497293b07)
+        ;
+
+        
+    
+    
+            var marker_c139ce80ca6b4a14046b19180ea697b1 = L.marker(
+                [36.76337327368007, -5.465787459238412],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_3551464e06e587d24a9994b40eb1f233 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c139ce80ca6b4a14046b19180ea697b1.setIcon(icon_3551464e06e587d24a9994b40eb1f233);
+        
+    
+        var popup_277c8ae05f41fabf6bfa15a869ba382b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae9ad079983c9fff26cd95e15e6ca9b9 = $(`<div id="html_ae9ad079983c9fff26cd95e15e6ca9b9" style="width: 100.0%; height: 100.0%;">CONSULTORIO AUXILIAR BENAMAHOMA</div>`)[0];
+                popup_277c8ae05f41fabf6bfa15a869ba382b.setContent(html_ae9ad079983c9fff26cd95e15e6ca9b9);
+            
+        
+
+        marker_c139ce80ca6b4a14046b19180ea697b1.bindPopup(popup_277c8ae05f41fabf6bfa15a869ba382b)
+        ;
+
+        
+    
+    
+            var marker_2a76c44d60be3ba6e153f2d991d9c5c5 = L.marker(
+                [36.7592436170874, -5.366504908595418],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_c9d90f26e2db966843806b72d9aae05e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2a76c44d60be3ba6e153f2d991d9c5c5.setIcon(icon_c9d90f26e2db966843806b72d9aae05e);
+        
+    
+        var popup_4964273903e491cf96a6df40edb32c74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c38719c9378a1cf155c77ff26c9abcc = $(`<div id="html_7c38719c9378a1cf155c77ff26c9abcc" style="width: 100.0%; height: 100.0%;">CONSULTORIO GRAZALEMA</div>`)[0];
+                popup_4964273903e491cf96a6df40edb32c74.setContent(html_7c38719c9378a1cf155c77ff26c9abcc);
+            
+        
+
+        marker_2a76c44d60be3ba6e153f2d991d9c5c5.bindPopup(popup_4964273903e491cf96a6df40edb32c74)
+        ;
+
+        
+    
+    
+            var marker_745a8440423ef3d75546daf46e0ed579 = L.marker(
+                [36.85389491282129, -5.320373302237331],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_5652ddfb1cd121e54a73092bfe8ca948 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_745a8440423ef3d75546daf46e0ed579.setIcon(icon_5652ddfb1cd121e54a73092bfe8ca948);
+        
+    
+        var popup_fc9d21a18205d52b037f20d7bd58204d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0927de546a754a6526320a0192c6f736 = $(`<div id="html_0927de546a754a6526320a0192c6f736" style="width: 100.0%; height: 100.0%;">CONSULTORIO EL GASTOR</div>`)[0];
+                popup_fc9d21a18205d52b037f20d7bd58204d.setContent(html_0927de546a754a6526320a0192c6f736);
+            
+        
+
+        marker_745a8440423ef3d75546daf46e0ed579.bindPopup(popup_fc9d21a18205d52b037f20d7bd58204d)
+        ;
+
+        
+    
+    
+            var marker_4b444fe2daf0e00e08ffd1572d8910da = L.marker(
+                [36.73106958182482, -6.433818969995988],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_e823f13bec7c84f8bd8bf36debe8052d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4b444fe2daf0e00e08ffd1572d8910da.setIcon(icon_e823f13bec7c84f8bd8bf36debe8052d);
+        
+    
+        var popup_1e83edcbe1f46bb9eb77a1171d76016b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cf231f7e73c00d34b2537229b47d4e3 = $(`<div id="html_6cf231f7e73c00d34b2537229b47d4e3" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD SOR MARIA LUISA P.M.</div>`)[0];
+                popup_1e83edcbe1f46bb9eb77a1171d76016b.setContent(html_6cf231f7e73c00d34b2537229b47d4e3);
+            
+        
+
+        marker_4b444fe2daf0e00e08ffd1572d8910da.bindPopup(popup_1e83edcbe1f46bb9eb77a1171d76016b)
+        ;
+
+        
+    
+    
+            var marker_5d0bcf1f805e2b01b395eb26a0c3b66e = L.marker(
+                [36.278578910980244, -6.088092981539409],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_108957cd28c3f5b7894d1c23d42ac264 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5d0bcf1f805e2b01b395eb26a0c3b66e.setIcon(icon_108957cd28c3f5b7894d1c23d42ac264);
+        
+    
+        var popup_911112b2864540dcd16e412af80c58dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab486ecb9162c3a1d74eef989c6425cd = $(`<div id="html_ab486ecb9162c3a1d74eef989c6425cd" style="width: 100.0%; height: 100.0%;">CENTRO MEDICO SAN SEBASTIAN</div>`)[0];
+                popup_911112b2864540dcd16e412af80c58dc.setContent(html_ab486ecb9162c3a1d74eef989c6425cd);
+            
+        
+
+        marker_5d0bcf1f805e2b01b395eb26a0c3b66e.bindPopup(popup_911112b2864540dcd16e412af80c58dc)
+        ;
+
+        
+    
+    
+            var marker_e3326c7db0a55239ea8b6d124ba863b9 = L.marker(
+                [36.33232154964611, -6.091332824370154],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_1647908d2094758485cd47d591bc34d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e3326c7db0a55239ea8b6d124ba863b9.setIcon(icon_1647908d2094758485cd47d591bc34d0);
+        
+    
+        var popup_0da038b7a9198ebae61486093e7febdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3fc95ed2bab72e50515142db59456ef = $(`<div id="html_a3fc95ed2bab72e50515142db59456ef" style="width: 100.0%; height: 100.0%;">CONSULTORIO EL COLORADO</div>`)[0];
+                popup_0da038b7a9198ebae61486093e7febdd.setContent(html_a3fc95ed2bab72e50515142db59456ef);
+            
+        
+
+        marker_e3326c7db0a55239ea8b6d124ba863b9.bindPopup(popup_0da038b7a9198ebae61486093e7febdd)
+        ;
+
+        
+    
+    
+            var marker_f52e0a33c10ca136625cc631228e2c33 = L.marker(
+                [36.280721585481906, -6.089961873242238],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_8cd268fe34ebf6dae30fb2303e1ed0e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f52e0a33c10ca136625cc631228e2c33.setIcon(icon_8cd268fe34ebf6dae30fb2303e1ed0e4);
+        
+    
+        var popup_20b7868351943bd530de068218a20dd7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_646b8214ce7bba37a9e1a3f205d6445a = $(`<div id="html_646b8214ce7bba37a9e1a3f205d6445a" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD CONIL LA ATALAYA</div>`)[0];
+                popup_20b7868351943bd530de068218a20dd7.setContent(html_646b8214ce7bba37a9e1a3f205d6445a);
+            
+        
+
+        marker_f52e0a33c10ca136625cc631228e2c33.bindPopup(popup_20b7868351943bd530de068218a20dd7)
+        ;
+
+        
+    
+    
+            var marker_515ba3e68c07bf937d1de4e4a6c87966 = L.marker(
+                [36.277669680675565, -5.428901826960439],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_8aad7503a7ff5d27b4a2efff3dc5588e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_515ba3e68c07bf937d1de4e4a6c87966.setIcon(icon_8aad7503a7ff5d27b4a2efff3dc5588e);
+        
+    
+        var popup_140d96b4e30538e3498afb89ca73a2fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_657ccd23299e1736f42485c181e85d5e = $(`<div id="html_657ccd23299e1736f42485c181e85d5e" style="width: 100.0%; height: 100.0%;">CONSULTORIO CASTELLAR DE LA FRONTERA</div>`)[0];
+                popup_140d96b4e30538e3498afb89ca73a2fd.setContent(html_657ccd23299e1736f42485c181e85d5e);
+            
+        
+
+        marker_515ba3e68c07bf937d1de4e4a6c87966.bindPopup(popup_140d96b4e30538e3498afb89ca73a2fd)
+        ;
+
+        
+    
+    
+            var marker_3252563679836a143f5434f9193ed7a7 = L.marker(
+                [36.85198260456604, -5.6941080503305095],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_7aee8a8e88b7264f9569b8427f3bb293 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3252563679836a143f5434f9193ed7a7.setIcon(icon_7aee8a8e88b7264f9569b8427f3bb293);
+        
+    
+        var popup_56ef6cb1cd2edb672717d8265aa88b40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2c417b688008099ea181366be5b4114 = $(`<div id="html_a2c417b688008099ea181366be5b4114" style="width: 100.0%; height: 100.0%;">CONSULTORIO COTO DE BORNOS</div>`)[0];
+                popup_56ef6cb1cd2edb672717d8265aa88b40.setContent(html_a2c417b688008099ea181366be5b4114);
+            
+        
+
+        marker_3252563679836a143f5434f9193ed7a7.bindPopup(popup_56ef6cb1cd2edb672717d8265aa88b40)
+        ;
+
+        
+    
+    
+            var marker_32a47982267c93df3b9c143bcc09a453 = L.marker(
+                [36.8152503105265, -5.74521266183733],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_cbbd00417fc4945167f57e87d3f087f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_32a47982267c93df3b9c143bcc09a453.setIcon(icon_cbbd00417fc4945167f57e87d3f087f2);
+        
+    
+        var popup_9abf5a6879a11c954741e1df89d4e4f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_276be228517e49a0fbfebfaefeb77266 = $(`<div id="html_276be228517e49a0fbfebfaefeb77266" style="width: 100.0%; height: 100.0%;">CONSULTORIO BORNOS</div>`)[0];
+                popup_9abf5a6879a11c954741e1df89d4e4f2.setContent(html_276be228517e49a0fbfebfaefeb77266);
+            
+        
+
+        marker_32a47982267c93df3b9c143bcc09a453.bindPopup(popup_9abf5a6879a11c954741e1df89d4e4f2)
+        ;
+
+        
+    
+    
+            var marker_177623857576689d83bf688cb32b755b = L.marker(
+                [36.1868952588035, -5.437648766500876],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_c27bd78c5fb7f84d2eda2e541118469a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_177623857576689d83bf688cb32b755b.setIcon(icon_c27bd78c5fb7f84d2eda2e541118469a);
+        
+    
+        var popup_5274b92cea1ef545c03d5d059ee9f2e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86f7f12f3286c0b86c6729193bfd2872 = $(`<div id="html_86f7f12f3286c0b86c6729193bfd2872" style="width: 100.0%; height: 100.0%;">CONSULTORIO LOS CORTIJILLOS</div>`)[0];
+                popup_5274b92cea1ef545c03d5d059ee9f2e4.setContent(html_86f7f12f3286c0b86c6729193bfd2872);
+            
+        
+
+        marker_177623857576689d83bf688cb32b755b.bindPopup(popup_5274b92cea1ef545c03d5d059ee9f2e4)
+        ;
+
+        
+    
+    
+            var marker_f9f4eaf6c31c152fb7c2a5a1bdfe2b28 = L.marker(
+                [36.17645223264249, -5.440027797020265],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_d6a5efff852281c5592ca61563f8be15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f9f4eaf6c31c152fb7c2a5a1bdfe2b28.setIcon(icon_d6a5efff852281c5592ca61563f8be15);
+        
+    
+        var popup_d089fb7c03b8fe462118bd23ef649057 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_951cba94ded5b4e243595054ba87a221 = $(`<div id="html_951cba94ded5b4e243595054ba87a221" style="width: 100.0%; height: 100.0%;">CONSULTORIO PALMONES</div>`)[0];
+                popup_d089fb7c03b8fe462118bd23ef649057.setContent(html_951cba94ded5b4e243595054ba87a221);
+            
+        
+
+        marker_f9f4eaf6c31c152fb7c2a5a1bdfe2b28.bindPopup(popup_d089fb7c03b8fe462118bd23ef649057)
+        ;
+
+        
+    
+    
+            var marker_d8db4f212386d58caec54e22731b085c = L.marker(
+                [36.182917613943964, -5.48147038630996],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_05d2382907206d43e6cadae08a35f733 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d8db4f212386d58caec54e22731b085c.setIcon(icon_05d2382907206d43e6cadae08a35f733);
+        
+    
+        var popup_e7a461e3a539d3416ffd84a1ec0b1a37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da26c4e321eddf2438de583993d89b9f = $(`<div id="html_da26c4e321eddf2438de583993d89b9f" style="width: 100.0%; height: 100.0%;">CONSULTORIO LOS BARRIOS ESTE</div>`)[0];
+                popup_e7a461e3a539d3416ffd84a1ec0b1a37.setContent(html_da26c4e321eddf2438de583993d89b9f);
+            
+        
+
+        marker_d8db4f212386d58caec54e22731b085c.bindPopup(popup_e7a461e3a539d3416ffd84a1ec0b1a37)
+        ;
+
+        
+    
+    
+            var marker_b0e4cbb38a77833c7d8a304f68fbd98c = L.marker(
+                [36.19514668249305, -5.918758316580935],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_14b35c83c31d362e2bcd6c637d10e287 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b0e4cbb38a77833c7d8a304f68fbd98c.setIcon(icon_14b35c83c31d362e2bcd6c637d10e287);
+        
+    
+        var popup_940f2af9186a8614b164107dce7f14a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fdd7a894433b17d5043bf73de4e4d52 = $(`<div id="html_0fdd7a894433b17d5043bf73de4e4d52" style="width: 100.0%; height: 100.0%;">CENTRO MÉDICO EL CARMEN</div>`)[0];
+                popup_940f2af9186a8614b164107dce7f14a9.setContent(html_0fdd7a894433b17d5043bf73de4e4d52);
+            
+        
+
+        marker_b0e4cbb38a77833c7d8a304f68fbd98c.bindPopup(popup_940f2af9186a8614b164107dce7f14a9)
+        ;
+
+        
+    
+    
+            var marker_15dd088b47194025c56a631aa02c6377 = L.marker(
+                [36.70018498546228, -5.42187612629762],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_6e19fbe2696f3637354dd2cf8d9c610f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_15dd088b47194025c56a631aa02c6377.setIcon(icon_6e19fbe2696f3637354dd2cf8d9c610f);
+        
+    
+        var popup_1c63943388abd0e8bab55c85740d283d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d54c4814ff6874d02975c0c6b9d851c4 = $(`<div id="html_d54c4814ff6874d02975c0c6b9d851c4" style="width: 100.0%; height: 100.0%;">CONSULTORIO BENAOCAZ</div>`)[0];
+                popup_1c63943388abd0e8bab55c85740d283d.setContent(html_d54c4814ff6874d02975c0c6b9d851c4);
+            
+        
+
+        marker_15dd088b47194025c56a631aa02c6377.bindPopup(popup_1c63943388abd0e8bab55c85740d283d)
+        ;
+
+        
+    
+    
+            var marker_b1b17e000d9fe668a76dfa8ac272a51b = L.marker(
+                [36.76324464566128, -5.782798786756967],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_7aee42c36edf318f1437ecfef64a8cb3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b1b17e000d9fe668a76dfa8ac272a51b.setIcon(icon_7aee42c36edf318f1437ecfef64a8cb3);
+        
+    
+        var popup_a75cb86127aadc5fed091a1d80b5563a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bae0dd161f0389e1244e2d7a5a7094c4 = $(`<div id="html_bae0dd161f0389e1244e2d7a5a7094c4" style="width: 100.0%; height: 100.0%;">CONSULTORIO EL SANTISCAL</div>`)[0];
+                popup_a75cb86127aadc5fed091a1d80b5563a.setContent(html_bae0dd161f0389e1244e2d7a5a7094c4);
+            
+        
+
+        marker_b1b17e000d9fe668a76dfa8ac272a51b.bindPopup(popup_a75cb86127aadc5fed091a1d80b5563a)
+        ;
+
+        
+    
+    
+            var marker_61f8ea6192ab3516e8c7950d85b4df8d = L.marker(
+                [36.52106145102732, -5.863957159773473],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_f0babe01139cfecb870c55ee8c0de441 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_61f8ea6192ab3516e8c7950d85b4df8d.setIcon(icon_f0babe01139cfecb870c55ee8c0de441);
+        
+    
+        var popup_e357768cf491240cb1a2c1a1bdf0d941 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_686756b326b8f943217d67405a2a0bd7 = $(`<div id="html_686756b326b8f943217d67405a2a0bd7" style="width: 100.0%; height: 100.0%;">CONSULTORIO PATERNA DE RIVERA</div>`)[0];
+                popup_e357768cf491240cb1a2c1a1bdf0d941.setContent(html_686756b326b8f943217d67405a2a0bd7);
+            
+        
+
+        marker_61f8ea6192ab3516e8c7950d85b4df8d.bindPopup(popup_e357768cf491240cb1a2c1a1bdf0d941)
+        ;
+
+        
+    
+    
+            var marker_9d92b35f374b1b3ba7ecaa37a1971b62 = L.marker(
+                [36.86846114144969, -6.174778817404322],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_9d2f960bd37b898f745f93552b1524b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9d92b35f374b1b3ba7ecaa37a1971b62.setIcon(icon_9d2f960bd37b898f745f93552b1524b0);
+        
+    
+        var popup_cf8dbae5bebbc7a350121cae2713eb6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5056f1ed7c890e5eb4f4bbf87f899632 = $(`<div id="html_5056f1ed7c890e5eb4f4bbf87f899632" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD TREBUJENA</div>`)[0];
+                popup_cf8dbae5bebbc7a350121cae2713eb6e.setContent(html_5056f1ed7c890e5eb4f4bbf87f899632);
+            
+        
+
+        marker_9d92b35f374b1b3ba7ecaa37a1971b62.bindPopup(popup_cf8dbae5bebbc7a350121cae2713eb6e)
+        ;
+
+        
+    
+    
+            var marker_5c2d6bcbfe54d7476a4e402238fd913a = L.marker(
+                [36.28587086890688, -5.421518307795433],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_a868875e88403d1fd83a7ef9c1bb299e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5c2d6bcbfe54d7476a4e402238fd913a.setIcon(icon_a868875e88403d1fd83a7ef9c1bb299e);
+        
+    
+        var popup_9a41f6a7cf6e3681d990d96bac632c13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cc50b61b5ec877d030a9c347064a7c9 = $(`<div id="html_0cc50b61b5ec877d030a9c347064a7c9" style="width: 100.0%; height: 100.0%;">CONSULTORIO AUXILIAR ALMORAIMA</div>`)[0];
+                popup_9a41f6a7cf6e3681d990d96bac632c13.setContent(html_0cc50b61b5ec877d030a9c347064a7c9);
+            
+        
+
+        marker_5c2d6bcbfe54d7476a4e402238fd913a.bindPopup(popup_9a41f6a7cf6e3681d990d96bac632c13)
+        ;
+
+        
+    
+    
+            var marker_eab800c9f1f275021faffef191256933 = L.marker(
+                [36.87031826286106, -5.806300422571849],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_17f447587bf77026c4c75c521639285d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eab800c9f1f275021faffef191256933.setIcon(icon_17f447587bf77026c4c75c521639285d);
+        
+    
+        var popup_87598f781ddf0ce3cc134d9ed07c6990 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ba7a13cfe648221436266135f73a2b9 = $(`<div id="html_9ba7a13cfe648221436266135f73a2b9" style="width: 100.0%; height: 100.0%;">CONSULTORIO ESPERA</div>`)[0];
+                popup_87598f781ddf0ce3cc134d9ed07c6990.setContent(html_9ba7a13cfe648221436266135f73a2b9);
+            
+        
+
+        marker_eab800c9f1f275021faffef191256933.bindPopup(popup_87598f781ddf0ce3cc134d9ed07c6990)
+        ;
+
+        
+    
+    
+            var marker_681b7fca47fcb28e3a9a18b700ed0980 = L.marker(
+                [36.7414196395626, -6.4297973898168905],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_1684fbfacbd54b83f4d38f6a006b435b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_681b7fca47fcb28e3a9a18b700ed0980.setIcon(icon_1684fbfacbd54b83f4d38f6a006b435b);
+        
+    
+        var popup_840df2fc306cefe08ade3ecb8f4bc791 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fa43ff5a85aa2612dadcec4cdab7951 = $(`<div id="html_9fa43ff5a85aa2612dadcec4cdab7951" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD DOCTOR TOLOSA LATOUR</div>`)[0];
+                popup_840df2fc306cefe08ade3ecb8f4bc791.setContent(html_9fa43ff5a85aa2612dadcec4cdab7951);
+            
+        
+
+        marker_681b7fca47fcb28e3a9a18b700ed0980.bindPopup(popup_840df2fc306cefe08ade3ecb8f4bc791)
+        ;
+
+        
+    
+    
+            var marker_b045c15b4f9b6e4d23907322b0403727 = L.marker(
+                [36.46672276176123, -5.927861959625194],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_a5109feaddb64f47e6638fe63d069263 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b045c15b4f9b6e4d23907322b0403727.setIcon(icon_a5109feaddb64f47e6638fe63d069263);
+        
+    
+        var popup_9bdb236c0896fba1c4ffbd750f5dfd32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_312049ce396d80b60ee5c0ac63bd1e87 = $(`<div id="html_312049ce396d80b60ee5c0ac63bd1e87" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD MEDINA SIDONIA</div>`)[0];
+                popup_9bdb236c0896fba1c4ffbd750f5dfd32.setContent(html_312049ce396d80b60ee5c0ac63bd1e87);
+            
+        
+
+        marker_b045c15b4f9b6e4d23907322b0403727.bindPopup(popup_9bdb236c0896fba1c4ffbd750f5dfd32)
+        ;
+
+        
+    
+    
+            var marker_fb61cfc12a0a85623032799be95601ae = L.marker(
+                [36.43122257001205, -5.446216055776707],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_97c3372c73973981b7b28cc2d3259870 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fb61cfc12a0a85623032799be95601ae.setIcon(icon_97c3372c73973981b7b28cc2d3259870);
+        
+    
+        var popup_592ae6b0406acb79f05324f084a6e30a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d0eb67cc3eed45efebf22603a905ffd = $(`<div id="html_3d0eb67cc3eed45efebf22603a905ffd" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD JIMENA DE LA FRONTERA</div>`)[0];
+                popup_592ae6b0406acb79f05324f084a6e30a.setContent(html_3d0eb67cc3eed45efebf22603a905ffd);
+            
+        
+
+        marker_fb61cfc12a0a85623032799be95601ae.bindPopup(popup_592ae6b0406acb79f05324f084a6e30a)
+        ;
+
+        
+    
+    
+            var marker_97c37a2643c2aa996379c45ba215eb58 = L.marker(
+                [36.14145471150462, -5.698749084070459],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_03073fbf7a786ad96601e23c061d60d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_97c37a2643c2aa996379c45ba215eb58.setIcon(icon_03073fbf7a786ad96601e23c061d60d8);
+        
+    
+        var popup_e5141e90e0a5cf7dbaeacf9e7b35cea1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49b92d6416e7cad4cc6a1d3dde62c437 = $(`<div id="html_49b92d6416e7cad4cc6a1d3dde62c437" style="width: 100.0%; height: 100.0%;">CONSULTORIO FACINAS</div>`)[0];
+                popup_e5141e90e0a5cf7dbaeacf9e7b35cea1.setContent(html_49b92d6416e7cad4cc6a1d3dde62c437);
+            
+        
+
+        marker_97c37a2643c2aa996379c45ba215eb58.bindPopup(popup_e5141e90e0a5cf7dbaeacf9e7b35cea1)
+        ;
+
+        
+    
+    
+            var marker_897a1dc7238d908872af9b801560f24f = L.marker(
+                [36.757933774803874, -5.506472595074246],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_0e6c312b8bd64db6e13290565e0ed655 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_897a1dc7238d908872af9b801560f24f.setIcon(icon_0e6c312b8bd64db6e13290565e0ed655);
+        
+    
+        var popup_277ab3bec94ff61596b88e46627a26cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37d4adc942aa55de88cf00ec8eb73c41 = $(`<div id="html_37d4adc942aa55de88cf00ec8eb73c41" style="width: 100.0%; height: 100.0%;">CONSULTORIO DE SALUD</div>`)[0];
+                popup_277ab3bec94ff61596b88e46627a26cf.setContent(html_37d4adc942aa55de88cf00ec8eb73c41);
+            
+        
+
+        marker_897a1dc7238d908872af9b801560f24f.bindPopup(popup_277ab3bec94ff61596b88e46627a26cf)
+        ;
+
+        
+    
+    
+            var marker_3e98479210d3952426b606ba39fa0171 = L.marker(
+                [36.18297016935886, -5.493677746389777],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_7d26e49e7a44ed4debb4ce7df10a9996 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3e98479210d3952426b606ba39fa0171.setIcon(icon_7d26e49e7a44ed4debb4ce7df10a9996);
+        
+    
+        var popup_30699629181db32a3543e23b5f3ee78a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8d5ea8c51f9e4aff0f802a8e2db4538 = $(`<div id="html_e8d5ea8c51f9e4aff0f802a8e2db4538" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD LOS BARRIOS</div>`)[0];
+                popup_30699629181db32a3543e23b5f3ee78a.setContent(html_e8d5ea8c51f9e4aff0f802a8e2db4538);
+            
+        
+
+        marker_3e98479210d3952426b606ba39fa0171.bindPopup(popup_30699629181db32a3543e23b5f3ee78a)
+        ;
+
+        
+    
+    
+            var marker_4c58385ff923d9b62b0272d67a1d7402 = L.marker(
+                [36.91657149945317, -5.232950207281941],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_2454509d4c44c77a64e48c29e8b6d686 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4c58385ff923d9b62b0272d67a1d7402.setIcon(icon_2454509d4c44c77a64e48c29e8b6d686);
+        
+    
+        var popup_2a9e645a2a36de578295c9bf0d02f54c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98a7117a1a8f73eac9eb9984f666b731 = $(`<div id="html_98a7117a1a8f73eac9eb9984f666b731" style="width: 100.0%; height: 100.0%;">CONSULTORIO TORRE ALHAQUIME</div>`)[0];
+                popup_2a9e645a2a36de578295c9bf0d02f54c.setContent(html_98a7117a1a8f73eac9eb9984f666b731);
+            
+        
+
+        marker_4c58385ff923d9b62b0272d67a1d7402.bindPopup(popup_2a9e645a2a36de578295c9bf0d02f54c)
+        ;
+
+        
+    
+    
+            var marker_1221856b5b6862460f698bb5da66fa8a = L.marker(
+                [36.18399621050993, -5.757622485118585],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_f3f3589a23375363ceb8bec359fb3408 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1221856b5b6862460f698bb5da66fa8a.setIcon(icon_f3f3589a23375363ceb8bec359fb3408);
+        
+    
+        var popup_b0f908f1f792d25034e672064ebbef7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50b0faa972f60f9a52734a0a64d3b486 = $(`<div id="html_50b0faa972f60f9a52734a0a64d3b486" style="width: 100.0%; height: 100.0%;">CONSULTORIO TAHIVILLA</div>`)[0];
+                popup_b0f908f1f792d25034e672064ebbef7e.setContent(html_50b0faa972f60f9a52734a0a64d3b486);
+            
+        
+
+        marker_1221856b5b6862460f698bb5da66fa8a.bindPopup(popup_b0f908f1f792d25034e672064ebbef7e)
+        ;
+
+        
+    
+    
+            var marker_05e4f961fc95158c19c2904d669e4a7f = L.marker(
+                [36.862340804785845, -5.175932938812214],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_10d462125d49fc20703c76e56ab86eb6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_05e4f961fc95158c19c2904d669e4a7f.setIcon(icon_10d462125d49fc20703c76e56ab86eb6);
+        
+    
+        var popup_fb2c32a63811ad8463f06e45f7583203 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c440b73d35168ed26e71f53e786c4737 = $(`<div id="html_c440b73d35168ed26e71f53e786c4737" style="width: 100.0%; height: 100.0%;">CONSULTORIO SETENIL</div>`)[0];
+                popup_fb2c32a63811ad8463f06e45f7583203.setContent(html_c440b73d35168ed26e71f53e786c4737);
+            
+        
+
+        marker_05e4f961fc95158c19c2904d669e4a7f.bindPopup(popup_fb2c32a63811ad8463f06e45f7583203)
+        ;
+
+        
+    
+    
+            var marker_5593eea04fb3796503c27fb8eda03ab0 = L.marker(
+                [36.30168115974071, -5.267338941701478],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_4be537cc875754b6c1ce11b7bc7af0a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5593eea04fb3796503c27fb8eda03ab0.setIcon(icon_4be537cc875754b6c1ce11b7bc7af0a2);
+        
+    
+        var popup_488ae8f64b7aec34e6c7cf651fb96667 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6221f89ac693364cea9ff62b5ac86c72 = $(`<div id="html_6221f89ac693364cea9ff62b5ac86c72" style="width: 100.0%; height: 100.0%;">CONSULTORIO AUXILIAR TORREGUADIARO</div>`)[0];
+                popup_488ae8f64b7aec34e6c7cf651fb96667.setContent(html_6221f89ac693364cea9ff62b5ac86c72);
+            
+        
+
+        marker_5593eea04fb3796503c27fb8eda03ab0.bindPopup(popup_488ae8f64b7aec34e6c7cf651fb96667)
+        ;
+
+        
+    
+    
+            var marker_bc29e86acd64b23d4ff8070603829dea = L.marker(
+                [36.20615027366994, -5.42231174301593],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_084ba2cbd803d5e7586d73aa5e932257 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bc29e86acd64b23d4ff8070603829dea.setIcon(icon_084ba2cbd803d5e7586d73aa5e932257);
+        
+    
+        var popup_f1d383e3c1690c63b815fd49595398fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26bf0e27abdb84a5c4d76e35cb7fd1e9 = $(`<div id="html_26bf0e27abdb84a5c4d76e35cb7fd1e9" style="width: 100.0%; height: 100.0%;">CONSULTORIO TARAGUILLA</div>`)[0];
+                popup_f1d383e3c1690c63b815fd49595398fa.setContent(html_26bf0e27abdb84a5c4d76e35cb7fd1e9);
+            
+        
+
+        marker_bc29e86acd64b23d4ff8070603829dea.bindPopup(popup_f1d383e3c1690c63b815fd49595398fa)
+        ;
+
+        
+    
+    
+            var marker_024dafeb9a6351a7225cbc5c28d45d52 = L.marker(
+                [36.21319179006745, -5.382441431003353],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_5baf599b26141b20683b7504fc48eead = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_024dafeb9a6351a7225cbc5c28d45d52.setIcon(icon_5baf599b26141b20683b7504fc48eead);
+        
+    
+        var popup_20a224d0c87b0ea419af8091b21420af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6fba44c48619745f2b7d60aedf958f2d = $(`<div id="html_6fba44c48619745f2b7d60aedf958f2d" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD SAN ROQUE</div>`)[0];
+                popup_20a224d0c87b0ea419af8091b21420af.setContent(html_6fba44c48619745f2b7d60aedf958f2d);
+            
+        
+
+        marker_024dafeb9a6351a7225cbc5c28d45d52.bindPopup(popup_20a224d0c87b0ea419af8091b21420af)
+        ;
+
+        
+    
+    
+            var marker_0f06966681a6e176006db0247880c3d1 = L.marker(
+                [36.303197149491275, -5.292039946158598],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_fdd320cdc1edf3d407369140c1440d21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0f06966681a6e176006db0247880c3d1.setIcon(icon_fdd320cdc1edf3d407369140c1440d21);
+        
+    
+        var popup_39d54abcb3a93aa39b3da373b4851f84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_563347dd1b23b67d2dabbd9d5ed2045f = $(`<div id="html_563347dd1b23b67d2dabbd9d5ed2045f" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD SAN ENRIQUE</div>`)[0];
+                popup_39d54abcb3a93aa39b3da373b4851f84.setContent(html_563347dd1b23b67d2dabbd9d5ed2045f);
+            
+        
+
+        marker_0f06966681a6e176006db0247880c3d1.bindPopup(popup_39d54abcb3a93aa39b3da373b4851f84)
+        ;
+
+        
+    
+    
+            var marker_8320f10a7220dbe7f31492283192f9bb = L.marker(
+                [36.18149968544774, -5.385858312497824],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_273e6badd6bf94bd93131ab03d5d7595 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8320f10a7220dbe7f31492283192f9bb.setIcon(icon_273e6badd6bf94bd93131ab03d5d7595);
+        
+    
+        var popup_0a7c746d84ba79c8e6d54fa9582bc52d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_823f640584717ad2adcbda8fb964e5fd = $(`<div id="html_823f640584717ad2adcbda8fb964e5fd" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD PUENTE MAYORGA</div>`)[0];
+                popup_0a7c746d84ba79c8e6d54fa9582bc52d.setContent(html_823f640584717ad2adcbda8fb964e5fd);
+            
+        
+
+        marker_8320f10a7220dbe7f31492283192f9bb.bindPopup(popup_0a7c746d84ba79c8e6d54fa9582bc52d)
+        ;
+
+        
+    
+    
+            var marker_85174043dae8cc91bfbdb179a403ba5d = L.marker(
+                [36.29948631571979, -5.303035258550165],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_570e851481c02107e140946e44f48c6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_85174043dae8cc91bfbdb179a403ba5d.setIcon(icon_570e851481c02107e140946e44f48c6b);
+        
+    
+        var popup_e0cae8eeb35617ce8bcc878604643e33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16368d5113730eafbe581286d3044e5d = $(`<div id="html_16368d5113730eafbe581286d3044e5d" style="width: 100.0%; height: 100.0%;">CONSULTORIO GUADIARO</div>`)[0];
+                popup_e0cae8eeb35617ce8bcc878604643e33.setContent(html_16368d5113730eafbe581286d3044e5d);
+            
+        
+
+        marker_85174043dae8cc91bfbdb179a403ba5d.bindPopup(popup_e0cae8eeb35617ce8bcc878604643e33)
+        ;
+
+        
+    
+    
+            var marker_44766285713f87932952966286d7de2b = L.marker(
+                [36.213252465928164, -5.430847913036333],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_205e8a95990b4ce446ebd02166adb296 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_44766285713f87932952966286d7de2b.setIcon(icon_205e8a95990b4ce446ebd02166adb296);
+        
+    
+        var popup_c10df09ca69e78db8f52bc1bf90d90b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23f7f2e04f76464b7ee0c84e5003c5c2 = $(`<div id="html_23f7f2e04f76464b7ee0c84e5003c5c2" style="width: 100.0%; height: 100.0%;">CONSULTORIO ESTACION DE SAN ROQUE</div>`)[0];
+                popup_c10df09ca69e78db8f52bc1bf90d90b3.setContent(html_23f7f2e04f76464b7ee0c84e5003c5c2);
+            
+        
+
+        marker_44766285713f87932952966286d7de2b.bindPopup(popup_c10df09ca69e78db8f52bc1bf90d90b3)
+        ;
+
+        
+    
+    
+            var marker_a6a553c844a9248e77d3bba6e9f922c4 = L.marker(
+                [36.62618082992587, -6.358228009669152],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_2a0a78d0a3edbe111843b6f92dbd2a53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a6a553c844a9248e77d3bba6e9f922c4.setIcon(icon_2a0a78d0a3edbe111843b6f92dbd2a53);
+        
+    
+        var popup_b7051489c80e9d9e2c82df2b43d987d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0054dc423baa1c9f29141b77921f22b4 = $(`<div id="html_0054dc423baa1c9f29141b77921f22b4" style="width: 100.0%; height: 100.0%;">CENTRO MEDICO COSTA DE LA LUZ</div>`)[0];
+                popup_b7051489c80e9d9e2c82df2b43d987d7.setContent(html_0054dc423baa1c9f29141b77921f22b4);
+            
+        
+
+        marker_a6a553c844a9248e77d3bba6e9f922c4.bindPopup(popup_b7051489c80e9d9e2c82df2b43d987d7)
+        ;
+
+        
+    
+    
+            var marker_b2677b33088b09dc261fde6fe8785746 = L.marker(
+                [36.92110215699531, -5.539647636281376],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_8c1d36f0dd5c97431cca4d31e4bcae91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b2677b33088b09dc261fde6fe8785746.setIcon(icon_8c1d36f0dd5c97431cca4d31e4bcae91);
+        
+    
+        var popup_2102e0f24634911e6bd66b86e3e94a3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fe2419e7b90bcb6bb31543ae5aeab87 = $(`<div id="html_8fe2419e7b90bcb6bb31543ae5aeab87" style="width: 100.0%; height: 100.0%;">CONSULTORIO PUERTO SERRANO</div>`)[0];
+                popup_2102e0f24634911e6bd66b86e3e94a3c.setContent(html_8fe2419e7b90bcb6bb31543ae5aeab87);
+            
+        
+
+        marker_b2677b33088b09dc261fde6fe8785746.bindPopup(popup_2102e0f24634911e6bd66b86e3e94a3c)
+        ;
+
+        
+    
+    
+            var marker_a05dac30d47ea1b5b4f8617c270bd9ba = L.marker(
+                [36.52718788575069, -6.194818278448747],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_94b03945793dc6f05a2081560ed274ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a05dac30d47ea1b5b4f8617c270bd9ba.setIcon(icon_94b03945793dc6f05a2081560ed274ac);
+        
+    
+        var popup_b905096860112a1f2fe68eb7afd39bc4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_002535a808cc6ce1867a68ba8d293c22 = $(`<div id="html_002535a808cc6ce1867a68ba8d293c22" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD PUERTO REAL</div>`)[0];
+                popup_b905096860112a1f2fe68eb7afd39bc4.setContent(html_002535a808cc6ce1867a68ba8d293c22);
+            
+        
+
+        marker_a05dac30d47ea1b5b4f8617c270bd9ba.bindPopup(popup_b905096860112a1f2fe68eb7afd39bc4)
+        ;
+
+        
+    
+    
+            var marker_5372fc5a9a6754de1cce79a12abae592 = L.marker(
+                [36.50199097923817, -6.142808996435779],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_6676d4c3fd58933d9f64f5879c466fe5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5372fc5a9a6754de1cce79a12abae592.setIcon(icon_6676d4c3fd58933d9f64f5879c466fe5);
+        
+    
+        var popup_d97d8f111b7f02ed8635db2fe641a68f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_690f961f3b4771697ab068ec86d157f9 = $(`<div id="html_690f961f3b4771697ab068ec86d157f9" style="width: 100.0%; height: 100.0%;">CONSULTORIO BARRIO JARANA</div>`)[0];
+                popup_d97d8f111b7f02ed8635db2fe641a68f.setContent(html_690f961f3b4771697ab068ec86d157f9);
+            
+        
+
+        marker_5372fc5a9a6754de1cce79a12abae592.bindPopup(popup_d97d8f111b7f02ed8635db2fe641a68f)
+        ;
+
+        
+    
+    
+            var marker_293dcf5c27f6cac29e210b3e27677d11 = L.marker(
+                [36.20940217758268, -5.394037646296896],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_8d787155d4328e1adc6ec9a48e8082c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_293dcf5c27f6cac29e210b3e27677d11.setIcon(icon_8d787155d4328e1adc6ec9a48e8082c8);
+        
+    
+        var popup_eea2e50e30008e03adf7cd4477a95a44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a7a1ca20af843777008740bebce0efd = $(`<div id="html_1a7a1ca20af843777008740bebce0efd" style="width: 100.0%; height: 100.0%;">CENTRO SALUD EVARISTO DOMINGUEZ</div>`)[0];
+                popup_eea2e50e30008e03adf7cd4477a95a44.setContent(html_1a7a1ca20af843777008740bebce0efd);
+            
+        
+
+        marker_293dcf5c27f6cac29e210b3e27677d11.bindPopup(popup_eea2e50e30008e03adf7cd4477a95a44)
+        ;
+
+        
+    
+    
+            var marker_9814ddf6b4974e7af6d00b28e7e8a7d0 = L.marker(
+                [36.81792982402563, -5.745528318861347],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_2b44a9e506f01f40822c5ad2d820f8e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9814ddf6b4974e7af6d00b28e7e8a7d0.setIcon(icon_2b44a9e506f01f40822c5ad2d820f8e1);
+        
+    
+        var popup_dd447031a408237d354011b07294d70b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd5767422bf5d866e5e87c279b68e266 = $(`<div id="html_dd5767422bf5d866e5e87c279b68e266" style="width: 100.0%; height: 100.0%;">NUEVO CENTRO DE SALUD DE BORNOS</div>`)[0];
+                popup_dd447031a408237d354011b07294d70b.setContent(html_dd5767422bf5d866e5e87c279b68e266);
+            
+        
+
+        marker_9814ddf6b4974e7af6d00b28e7e8a7d0.bindPopup(popup_dd447031a408237d354011b07294d70b)
+        ;
+
+        
+    
+    
+            var marker_2f90dc19b1e2714e29f1dcbbeb65bbff = L.marker(
+                [36.63134921031623, -6.367500804793098],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_42cd98bb5bc8036f9bfbb23bbb27552d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2f90dc19b1e2714e29f1dcbbeb65bbff.setIcon(icon_42cd98bb5bc8036f9bfbb23bbb27552d);
+        
+    
+        var popup_cce8eaa5b3b690e1f237274a930dd8b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64d92e9ed50ab21ec087e11362a1ff8c = $(`<div id="html_64d92e9ed50ab21ec087e11362a1ff8c" style="width: 100.0%; height: 100.0%;">NUEVO CENTRO DE SALUD DE ROTA</div>`)[0];
+                popup_cce8eaa5b3b690e1f237274a930dd8b2.setContent(html_64d92e9ed50ab21ec087e11362a1ff8c);
+            
+        
+
+        marker_2f90dc19b1e2714e29f1dcbbeb65bbff.bindPopup(popup_cce8eaa5b3b690e1f237274a930dd8b2)
+        ;
+
+        
+    
+    
+            var marker_6887f59e85768f091e8a60fdf57d6cb5 = L.marker(
+                [36.21094820160227, -5.390504414779473],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_7999fb116df06ff60500d3243318d560 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6887f59e85768f091e8a60fdf57d6cb5.setIcon(icon_7999fb116df06ff60500d3243318d560);
+        
+    
+        var popup_88630cd86addf59391096ccb2e991776 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d8395aabbd4f9b5d945336b5dd8a600 = $(`<div id="html_1d8395aabbd4f9b5d945336b5dd8a600" style="width: 100.0%; height: 100.0%;">CENT. FISIOTERAPIA Y SALUD BUCOD.</div>`)[0];
+                popup_88630cd86addf59391096ccb2e991776.setContent(html_1d8395aabbd4f9b5d945336b5dd8a600);
+            
+        
+
+        marker_6887f59e85768f091e8a60fdf57d6cb5.bindPopup(popup_88630cd86addf59391096ccb2e991776)
+        ;
+
+        
+    
+    
+            var marker_8e95c15d408f3692311ee7785268fc3e = L.marker(
+                [36.45854367917336, -5.927766213282037],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_d9915bbbf884ff8edae5fe35c7c14bb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8e95c15d408f3692311ee7785268fc3e.setIcon(icon_d9915bbbf884ff8edae5fe35c7c14bb9);
+        
+    
+        var popup_fa23f48a5fed1008e72480a8722d8eb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cb10c7de2c0712336944a1ef53909d4 = $(`<div id="html_8cb10c7de2c0712336944a1ef53909d4" style="width: 100.0%; height: 100.0%;">CENTRO MÉDICO JANDA-SALUD</div>`)[0];
+                popup_fa23f48a5fed1008e72480a8722d8eb4.setContent(html_8cb10c7de2c0712336944a1ef53909d4);
+            
+        
+
+        marker_8e95c15d408f3692311ee7785268fc3e.bindPopup(popup_fa23f48a5fed1008e72480a8722d8eb4)
+        ;
+
+        
+    
+    
+            var marker_dc44aeed00fa3a389f37167d12f472d9 = L.marker(
+                [36.47278210288091, -5.944811008220222],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_42c0c12446ca2789e2785b8695217869 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dc44aeed00fa3a389f37167d12f472d9.setIcon(icon_42c0c12446ca2789e2785b8695217869);
+        
+    
+        var popup_769ba26a7becef2cb0e047f20b9324f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88fd7b805cfab71ac1e9b4bdd716cf8f = $(`<div id="html_88fd7b805cfab71ac1e9b4bdd716cf8f" style="width: 100.0%; height: 100.0%;">CENTRO MÉDICO ASIDONENSE</div>`)[0];
+                popup_769ba26a7becef2cb0e047f20b9324f9.setContent(html_88fd7b805cfab71ac1e9b4bdd716cf8f);
+            
+        
+
+        marker_dc44aeed00fa3a389f37167d12f472d9.bindPopup(popup_769ba26a7becef2cb0e047f20b9324f9)
+        ;
+
+        
+    
+    
+            var marker_2f098d76258d24f099a6a20fcd0f70d5 = L.marker(
+                [36.18539835133923, -5.430820449481864],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_5fc53e4528c03118c4ae8f8f503e5e39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2f098d76258d24f099a6a20fcd0f70d5.setIcon(icon_5fc53e4528c03118c4ae8f8f503e5e39);
+        
+    
+        var popup_dab7600d393a92cc5767cb23fbd0dd9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a599a572ce489f105724d84b6cedeb5 = $(`<div id="html_0a599a572ce489f105724d84b6cedeb5" style="width: 100.0%; height: 100.0%;">HOSPITAL QUIRÓN SALUD CAMPO DE GIBR.</div>`)[0];
+                popup_dab7600d393a92cc5767cb23fbd0dd9d.setContent(html_0a599a572ce489f105724d84b6cedeb5);
+            
+        
+
+        marker_2f098d76258d24f099a6a20fcd0f70d5.bindPopup(popup_dab7600d393a92cc5767cb23fbd0dd9d)
+        ;
+
+        
+    
+    
+            var marker_88b1836e4505ce39e7563ec8ea8466e9 = L.marker(
+                [36.899951956413474, -5.168744522338855],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_bab2ade1577571e1d61cce003c42f103 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_88b1836e4505ce39e7563ec8ea8466e9.setIcon(icon_bab2ade1577571e1d61cce003c42f103);
+        
+    
+        var popup_9dd24a854feaabad5e7079729d01a570 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26bbc3819be9ca81e11278aa258ab5b7 = $(`<div id="html_26bbc3819be9ca81e11278aa258ab5b7" style="width: 100.0%; height: 100.0%;">SERV. FISIOTERAPIA Y REHABILITACIÓN</div>`)[0];
+                popup_9dd24a854feaabad5e7079729d01a570.setContent(html_26bbc3819be9ca81e11278aa258ab5b7);
+            
+        
+
+        marker_88b1836e4505ce39e7563ec8ea8466e9.bindPopup(popup_9dd24a854feaabad5e7079729d01a570)
+        ;
+
+        
+    
+    
+            var marker_88731de246edfa0989ef548a85695ed9 = L.marker(
+                [36.08522545403537, -5.763703700430622],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_1152f43aa19e6c91a0e9fb10d0b7d5b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_88731de246edfa0989ef548a85695ed9.setIcon(icon_1152f43aa19e6c91a0e9fb10d0b7d5b4);
+        
+    
+        var popup_2078cd0aef0b2b0b9213b8179a76f7f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_015f03ec930e7f7aac1e45c9219e49fc = $(`<div id="html_015f03ec930e7f7aac1e45c9219e49fc" style="width: 100.0%; height: 100.0%;">CONSULTORIO AUXILIAR BOLONIA</div>`)[0];
+                popup_2078cd0aef0b2b0b9213b8179a76f7f0.setContent(html_015f03ec930e7f7aac1e45c9219e49fc);
+            
+        
+
+        marker_88731de246edfa0989ef548a85695ed9.bindPopup(popup_2078cd0aef0b2b0b9213b8179a76f7f0)
+        ;
+
+        
+    
+    
+            var marker_7217aee328b1983e243c85c8af091e87 = L.marker(
+                [36.6091707011654, -5.803259439299722],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_bd2194103e90d720ceb6608d8e99ac5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7217aee328b1983e243c85c8af091e87.setIcon(icon_bd2194103e90d720ceb6608d8e99ac5e);
+        
+    
+        var popup_6d25d3cb2863b1aaaf4f8e0f0c876f1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7b4bd6b8023ffba12169a54c67ec664 = $(`<div id="html_c7b4bd6b8023ffba12169a54c67ec664" style="width: 100.0%; height: 100.0%;">CONSULTORIO SAN JOSE DEL VALLE</div>`)[0];
+                popup_6d25d3cb2863b1aaaf4f8e0f0c876f1f.setContent(html_c7b4bd6b8023ffba12169a54c67ec664);
+            
+        
+
+        marker_7217aee328b1983e243c85c8af091e87.bindPopup(popup_6d25d3cb2863b1aaaf4f8e0f0c876f1f)
+        ;
+
+        
+    
+    
+            var marker_263f42e72ac8e3b8cc8562265869af3c = L.marker(
+                [36.34678031199789, -5.812608658631153],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_efe9838dc42f03ce3b5b55e165dc9958 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_263f42e72ac8e3b8cc8562265869af3c.setIcon(icon_efe9838dc42f03ce3b5b55e165dc9958);
+        
+    
+        var popup_c26548748106984a7ec0cdaf5e6d93ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e5e69def5d2b536a3c91264feb7bd1e = $(`<div id="html_1e5e69def5d2b536a3c91264feb7bd1e" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD BENALUP</div>`)[0];
+                popup_c26548748106984a7ec0cdaf5e6d93ba.setContent(html_1e5e69def5d2b536a3c91264feb7bd1e);
+            
+        
+
+        marker_263f42e72ac8e3b8cc8562265869af3c.bindPopup(popup_c26548748106984a7ec0cdaf5e6d93ba)
+        ;
+
+        
+    
+    
+            var marker_5d31c2c2104c1298333437d4b9ceb911 = L.marker(
+                [36.838950936128114, -5.391385775992197],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_205e56203ec916d01e4f0c8c3f3b48e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5d31c2c2104c1298333437d4b9ceb911.setIcon(icon_205e56203ec916d01e4f0c8c3f3b48e1);
+        
+    
+        var popup_427e9201c52d1aac71be1d438783e63f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7e803f94f5b7b9c75bd9904e470af57 = $(`<div id="html_f7e803f94f5b7b9c75bd9904e470af57" style="width: 100.0%; height: 100.0%;">CONSULTORIO ZAHARA DE LA SIERRA</div>`)[0];
+                popup_427e9201c52d1aac71be1d438783e63f.setContent(html_f7e803f94f5b7b9c75bd9904e470af57);
+            
+        
+
+        marker_5d31c2c2104c1298333437d4b9ceb911.bindPopup(popup_427e9201c52d1aac71be1d438783e63f)
+        ;
+
+        
+    
+    
+            var marker_fd96ff89ddc88493224868f2c53c1f46 = L.marker(
+                [36.86265343287248, -5.65023877994799],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_82b094bfadc1092fc2dd60907107b614 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fd96ff89ddc88493224868f2c53c1f46.setIcon(icon_82b094bfadc1092fc2dd60907107b614);
+        
+    
+        var popup_96090721d156b92dc803ade786e74aa4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4e6e9a5a2aa4217ffad55d0f2bb87da = $(`<div id="html_f4e6e9a5a2aa4217ffad55d0f2bb87da" style="width: 100.0%; height: 100.0%;">HOSPITAL C. VIRGEN DE LAS MONTAÑAS</div>`)[0];
+                popup_96090721d156b92dc803ade786e74aa4.setContent(html_f4e6e9a5a2aa4217ffad55d0f2bb87da);
+            
+        
+
+        marker_fd96ff89ddc88493224868f2c53c1f46.bindPopup(popup_96090721d156b92dc803ade786e74aa4)
+        ;
+
+        
+    
+    
+            var marker_73bfee1e0cfe327c2d98f2e654405eaa = L.marker(
+                [36.85907719310321, -5.646983436851157],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_c052ccd3f088f9569f6708d6447809cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_73bfee1e0cfe327c2d98f2e654405eaa.setIcon(icon_c052ccd3f088f9569f6708d6447809cb);
+        
+    
+        var popup_93b8987b436dc7a6bf803baeeb43bec2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24068244e8b582eef69add2b7a069756 = $(`<div id="html_24068244e8b582eef69add2b7a069756" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD VILLAMARTIN</div>`)[0];
+                popup_93b8987b436dc7a6bf803baeeb43bec2.setContent(html_24068244e8b582eef69add2b7a069756);
+            
+        
+
+        marker_73bfee1e0cfe327c2d98f2e654405eaa.bindPopup(popup_93b8987b436dc7a6bf803baeeb43bec2)
+        ;
+
+        
+    
+    
+            var marker_e2c4e7e01958ea6756880a3cd3de4252 = L.marker(
+                [36.69650066092284, -5.386900573593665],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_4d0b25909b2fa394830098ff2bee57c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e2c4e7e01958ea6756880a3cd3de4252.setIcon(icon_4d0b25909b2fa394830098ff2bee57c1);
+        
+    
+        var popup_c6051625ae0010476688196a42366e6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9beb4ae960ed32035ffe7e87ff332d35 = $(`<div id="html_9beb4ae960ed32035ffe7e87ff332d35" style="width: 100.0%; height: 100.0%;">CONSULTORIO AUX. VILLALUENGA DEL R.</div>`)[0];
+                popup_c6051625ae0010476688196a42366e6a.setContent(html_9beb4ae960ed32035ffe7e87ff332d35);
+            
+        
+
+        marker_e2c4e7e01958ea6756880a3cd3de4252.bindPopup(popup_c6051625ae0010476688196a42366e6a)
+        ;
+
+        
+    
+    
+            var marker_59242212a4351175e36ca39ebfb7a59c = L.marker(
+                [36.23246589141967, -6.071286782000734],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_542f50c7ff0e7ea3017aad407600570a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_59242212a4351175e36ca39ebfb7a59c.setIcon(icon_542f50c7ff0e7ea3017aad407600570a);
+        
+    
+        var popup_4193febc57f861a37d19dc23244d8c25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cc6992a8cb76933354d0f91f72ca544 = $(`<div id="html_7cc6992a8cb76933354d0f91f72ca544" style="width: 100.0%; height: 100.0%;">CONSULTORIO AUXILIAR EL PALMAR</div>`)[0];
+                popup_4193febc57f861a37d19dc23244d8c25.setContent(html_7cc6992a8cb76933354d0f91f72ca544);
+            
+        
+
+        marker_59242212a4351175e36ca39ebfb7a59c.bindPopup(popup_4193febc57f861a37d19dc23244d8c25)
+        ;
+
+        
+    
+    
+            var marker_f4da5bc846eab49f117b51dc98f94ac9 = L.marker(
+                [36.31585478328396, -5.884836032934215],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_c833607e76fcb6efb8b31480438f0a58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f4da5bc846eab49f117b51dc98f94ac9.setIcon(icon_c833607e76fcb6efb8b31480438f0a58);
+        
+    
+        var popup_a62a8499d02d0a694a277c6ad546988a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5d349b58575e4e434ee5120de45d2b0 = $(`<div id="html_b5d349b58575e4e434ee5120de45d2b0" style="width: 100.0%; height: 100.0%;">CONSULTORIO AUXILIAR CANTARRANAS</div>`)[0];
+                popup_a62a8499d02d0a694a277c6ad546988a.setContent(html_b5d349b58575e4e434ee5120de45d2b0);
+            
+        
+
+        marker_f4da5bc846eab49f117b51dc98f94ac9.bindPopup(popup_a62a8499d02d0a694a277c6ad546988a)
+        ;
+
+        
+    
+    
+            var marker_daddf5ffe8b9ac85862eb6d3ef12ba40 = L.marker(
+                [36.251766350416695, -5.969267884955112],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_821d9ffd52f8d7e6dc8dc0c0672d73ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_daddf5ffe8b9ac85862eb6d3ef12ba40.setIcon(icon_821d9ffd52f8d7e6dc8dc0c0672d73ed);
+        
+    
+        var popup_b41118642c5d42540781bd6217f5bcfa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79898afd639fa30e0cfd9185693044a7 = $(`<div id="html_79898afd639fa30e0cfd9185693044a7" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD VIRGEN DE LA OLIVA</div>`)[0];
+                popup_b41118642c5d42540781bd6217f5bcfa.setContent(html_79898afd639fa30e0cfd9185693044a7);
+            
+        
+
+        marker_daddf5ffe8b9ac85862eb6d3ef12ba40.bindPopup(popup_b41118642c5d42540781bd6217f5bcfa)
+        ;
+
+        
+    
+    
+            var marker_a2db0c256087fc3a82d121cccd4f100b = L.marker(
+                [36.67525095554243, -5.446052739188258],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_c9226dbbeac1ce203358c81ec7e86d2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a2db0c256087fc3a82d121cccd4f100b.setIcon(icon_c9226dbbeac1ce203358c81ec7e86d2f);
+        
+    
+        var popup_33491cfc358e978c3fcc0892cd5ff15d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebd770af265a32fbd5255c4ee108d006 = $(`<div id="html_ebd770af265a32fbd5255c4ee108d006" style="width: 100.0%; height: 100.0%;">CENTRO DE SALUD UBRIQUE</div>`)[0];
+                popup_33491cfc358e978c3fcc0892cd5ff15d.setContent(html_ebd770af265a32fbd5255c4ee108d006);
+            
+        
+
+        marker_a2db0c256087fc3a82d121cccd4f100b.bindPopup(popup_33491cfc358e978c3fcc0892cd5ff15d)
+        ;
+
+        
+    
+    
+            var marker_aa7074dfb019635aafc42766ee004d9c = L.marker(
+                [36.25047321862637, -5.98169291742266],
+                {}
+            ).addTo(map_b483937491dbe6219b50f9e117427a24);
+        
+    
+            var icon_3c4db09e5e2ad40f47c37a79dc9e2481 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_aa7074dfb019635aafc42766ee004d9c.setIcon(icon_3c4db09e5e2ad40f47c37a79dc9e2481);
+        
+    
+        var popup_6103fb3c0c104ba9030b2ad509a3a5a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81aa244d92f249815f925764ecf09379 = $(`<div id="html_81aa244d92f249815f925764ecf09379" style="width: 100.0%; height: 100.0%;">HOSPITAL DE ALTA RESOLUCIÓN DE LA JANDA</div>`)[0];
+                popup_6103fb3c0c104ba9030b2ad509a3a5a3.setContent(html_81aa244d92f249815f925764ecf09379);
+            
+        
+
+        marker_aa7074dfb019635aafc42766ee004d9c.bindPopup(popup_6103fb3c0c104ba9030b2ad509a3a5a3)
+        ;
+
+        
+    
+</script>
+</html>
