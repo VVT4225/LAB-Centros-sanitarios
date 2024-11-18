@@ -1,6 +1,8 @@
 from collections import namedtuple
 import csv
 
+from coordenadas import *
+
 Coordenadas = namedtuple("Coordenadas",[("latitud"),("longitud")])
 CentroSanitario = namedtuple('CentroSanitario', 'nombre, localidad, coordenadas, estado, num_camas, acceso_minusvalidos, tiene_uci')
 
@@ -25,3 +27,20 @@ def leer_centros(fichero):
             res.append(centro)
     return res
 
+def calcular_total_camas_centros_accesibles(centros):
+    res = 0
+    for i in centros:
+        if i.acceso_minusvalidos == True:
+            res += i.num_camas
+    return res
+
+def obtener_centros_con_uci_cercanos_a(centros,coords,umbral):
+    uci = []
+    res = []
+    for i in centros:
+        if i.tiene_uci == True:
+            uci.append(i)
+    for i in uci:
+        if calcular_distancia(i.coordenadas,coords) <= umbral:
+            res.append((i.nombre,i.localidad,i.coordenadas))
+    return res
